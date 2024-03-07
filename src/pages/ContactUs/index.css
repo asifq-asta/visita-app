@@ -1,0 +1,48 @@
+/* SignUp.css */
+
+/* Custom styles for IonInput and IonTextarea */
+.ion-input-border {
+	border: 1px solid #101011;
+	border-radius: 5px;
+	padding: 0.5rem;
+}
+
+/* Additional styles for form elements */
+.ion-form-element {
+	margin-bottom: 1rem;
+}
+
+.mainDevCon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding: 5.4rem;
+}
+
+.heading {
+	color: teal;
+	font-family: cursive;
+	font-size: revert; /* "revert" instead of "revert-layer" */
+}
+
+.formClass {
+	margin-top: 1rem;
+	width: 40%;
+	height: 100%;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+	.formClass {
+		width: 80%; /* Adjust the width for mobile view */
+	}
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+	.mainDevCon {
+		padding: 0rem; /* Adjust the width for mobile view */
+	}
+}

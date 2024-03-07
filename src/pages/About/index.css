@@ -1,0 +1,18 @@
+/* About.css */
+.about-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Example font family */
+  }
+  
+  .storyblok-loader-container {
+    text-align: justify;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family :fantasy /* Example font family */
+  }
+
+  

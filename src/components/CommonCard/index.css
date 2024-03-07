@@ -1,0 +1,23 @@
+.product-card {
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	display: flex;
+	flex-direction: column;
+}
+.pagination {
+	padding: 10px;
+	margin: 15px 0;
+	display: flex;
+	justify-content: center;
+}
+.pagination > span {
+	padding: 15px 20px;
+	border: 1px solid gray;
+	cursor: pointer;
+}
+.pagination_selected {
+	background-color: rgb(220, 220, 220);
+}
+.pagination_disable {
+	opacity: 0;
+}
